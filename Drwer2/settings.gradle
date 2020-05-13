@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Drwer구글링예제2'

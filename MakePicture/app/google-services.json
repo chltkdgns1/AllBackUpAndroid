@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "654536643248",
+    "firebase_url": "https://makepicture-5d85d.firebaseio.com",
+    "project_id": "makepicture-5d85d",
+    "storage_bucket": "makepicture-5d85d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654536643248:android:d72ab2a105c5e17d07a175",
+        "android_client_info": {
+          "package_name": "com.gkftndltek.makepicture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654536643248-9phjv2rlmsie82ucl8gcuinfdsp7tnu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgM5NRMXsd0TOFFVNEFyYxaAcVFmezIKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654536643248-9phjv2rlmsie82ucl8gcuinfdsp7tnu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

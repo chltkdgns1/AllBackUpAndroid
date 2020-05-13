@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">kaokaApi</string>
+    <string name = "kakao_app_key">41baa66d57d0e08056b2bed87bb01a3e</string>
+</resources>

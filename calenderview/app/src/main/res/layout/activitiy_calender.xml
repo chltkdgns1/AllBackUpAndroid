@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:paddingLeft="80dp"
+            android:layout_marginTop="40dp"
+            android:text="찾고자 하는 영화, 시작 일자"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="82dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Year"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="20dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Month"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="20dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Day"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="376dp"
+        android:layout_height="355dp"
+        android:layout_marginLeft="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="129dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_back_col"
+            android:text="완료"
+            android:layout_weight="5"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="627dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="132dp"
+            android:layout_height="34dp"
+            android:background="@drawable/button_back_col_dblue"
+            android:layout_weight="5"
+            android:text="취소"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="627dp" />
+
+    </LinearLayout>
+</LinearLayout>

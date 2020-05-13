@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="4dp"
+        >
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/texttitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:ellipsize="end"
+                            android:paddingLeft="15dp"
+                            android:maxLines="1"
+                            android:textStyle="bold"
+                            android:text="null"/>
+
+
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:paddingLeft="15dp"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:id="@+id/textpubDate_intro"
+                                android:layout_width="70dp"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:text="개봉년도  : "/>
+
+                            <TextView
+                                android:id="@+id/textpubDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="null"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:paddingLeft="15dp"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:id="@+id/textdirector_intro"
+                                android:layout_width="70dp"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:text="감독          : "/>
+                            <TextView
+                                android:id="@+id/textdirector"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="null"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:paddingLeft="15dp"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:id="@+id/textactor_intro"
+                                android:layout_width="70dp"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:text="출연자      : "/>
+
+                            <TextView
+                                android:id="@+id/textactor"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="null"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:paddingLeft="15dp"
+                            android:layout_height="30dp">
+
+                            <TextView
+                                android:id="@+id/textUserRationg_intro"
+                                android:layout_width="70dp"
+                                android:layout_height="match_parent"
+                                android:textStyle="bold"
+                                android:text="평점          : "/>
+
+                            <TextView
+                                android:id="@+id/textUserRationg"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:text="null"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/imageview"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/imagedddddrawble"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
